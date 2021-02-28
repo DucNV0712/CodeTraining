@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style: none;
+
+}
+.tatca{
+    /*top left buttom right*/
+    margin:auto;
+    width:90%;
+    height:900px;
+}
+.logo{
+    width:100%;
+    height:70px;
+    text-align: center;
+    font-size:30px;
+}
+nav{
+    width:100%;
+    height:70px;
+    background-color: #91b205;
+    margin:10px 0;
+
+}
+.nav-link{
+    float: left;
+    width:70%;
+    margin:21px auto;
+
+}
+.nav-link  li{
+    display:inline-block;
+    margin:0 0 0 30px;
+    color: white;
+
+}
+.nav-link  li a{
+    color: white;
+    font-size:25px;
+}
+
+.input{
+    float: right;
+/*    phần bao gồn gửi và nhập cho sang bên phải*/
+}
+.container{
+    /*phần nội dung ở giữa*/
+    width:100%;
+    height: 100%;
+    display: flex;
+}
+.container-nav{
+    /*phần bên trong của thanh menu tôi thêm vào */
+    width:90%;
+    margin:21px auto;
+}
+/*khung hai bên*/
+.trai{
+    background-color: #91b205;
+    width:30%;
+    height:100%;
+}
+.phai{
+    width:70%;
+    height:100%;
+    background-color:#f4d9f9;
+}
+/*kết thúc khung hai bên*/
+
+.input{
+    /*bao gồm cả nhập chữa và gửi*/
+    margin-top:17px;
+}
+input{
+    /*phần nhập chữ*/
+    width:250px;
+    height:30px;
+
+}
+button{
+    /*nút bấm gửi*/
+    width:65px;
+    height:35px;
+    background-color: #1a1a1a;
+    color: white;
+}
+/*Phần bên trái*/
+.phan-ben-trai{
+    margin-top:20px ;
+
+}
+
+.container .trai .phan-ben-trai li{
+    list-style-type:circle;
+    width:350px;
+    height:50px;
+    margin:10px auto;
+    font-size:20px;
+    color: white;
+}
+.container .trai .phan-ben-trai li a{
+    color: white;
+}
+/*Phần bên phải*/
+.phan-ben-phai{
+    display:flex;
+    padding:10px;
+    cursor: pointer;
+    border-bottom:3px solid black;
+}
+.phan-ben-phai .phan-anh,img{
+    width:250px;
+    height:200px;
+}
+.phan-ben-phai .phan-chu{
+    margin-left:15px;
+
+}
+.phan-ben-phai .phan-chu h3{
+    font-size:25px;
+}
+.phan-ben-phai .phan-chu p{
+    font-size:17px;
+    margin-top:30px;
+}
+/*phần cuối*/
+footer{
+    text-align: center;
+    background-color: #91b205;
+    width:100%;
+    height:30px;
+    margin-top:10px;
+    color: white;
+    font-size:10px;
+    padding-top:10px;
+}
+
+
